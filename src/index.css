@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e3dde6;
+  /* background-image: url(./assets/Flag_of_the_Brussels-Capital_Region_Variant_2.svg.png);
+  background-size: cover; */
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}

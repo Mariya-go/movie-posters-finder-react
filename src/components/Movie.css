@@ -1,0 +1,51 @@
+.movie-container {
+  position: relative;
+  height: 350px;
+  width: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 12px;
+}
+
+.movie-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.2s linear;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.like-heart {
+  position: absolute;
+  top: 70px;
+  left: 135px;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.movie-container.liked img {
+  border: 2px solid red;
+}

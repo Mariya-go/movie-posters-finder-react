@@ -1,0 +1,17 @@
+.search {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+}
+
+.error {
+  color: red;
+}
